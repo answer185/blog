@@ -1,0 +1,23 @@
+.DS_Store
+node_modules/
+/dist/
+*.log*
+/test/unit/coverage/
+/coverage/
+diff.txt
+git-log.txt
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.nyc_output/
+.env.local
+
+package-lock.json
+yarn.lock
+
+components.d.ts
