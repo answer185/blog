@@ -7,7 +7,13 @@ function getFrontendSidebar() {
         { text: '前端架构', link: '/frontend/framework'},
         { text: 'React生态', link: '/frontend/react'},
         { text: 'Vue生态', link: '/frontend/vue'},
-        { text: '前端开发', link: '/frontend/pwa'},
+        { 
+          text: '前端开发', 
+          children: [
+            { text: 'PWA总结', link: '/frontend/pwa'},
+            { text: '组件库总结', link: '/frontend/componnet-library' }
+          ]
+        },
       ]
     }
   ]
