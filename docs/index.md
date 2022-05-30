@@ -3,7 +3,7 @@ home: true
 heroText: 七夜的博客
 tagline: 记录所学所思
 actionText: 进入
-actionLink: /basic/
+actionLink: /basic/data-structure
 features:
   - title: 编程基础
     details: 包含数据结构与算法，HTTP等
