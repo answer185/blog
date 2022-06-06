@@ -11,7 +11,8 @@ function getFrontendSidebar() {
           text: '前端开发', 
           children: [
             { text: 'PWA总结', link: '/frontend/pwa'},
-            { text: '组件库总结', link: '/frontend/componnet-library' }
+            { text: '组件库总结', link: '/frontend/componnet-library' },
+            { text: '微前端总结', link: '/frontend/micro-frontend'}
           ]
         },
       ]

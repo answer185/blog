@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 七夜的博客
+heroText: 七夜
 tagline: 记录所学所思
 actionText: 进入
 actionLink: /basic/data-structure

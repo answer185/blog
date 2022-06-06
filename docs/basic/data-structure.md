@@ -42,7 +42,7 @@
 3. boolean： 常见的布尔值，拥有两个字面量值：true和false
 4. number：使用IEEE754格式来表示的整数和浮点数
 5. string：表示由Unicode组成的字符序列
-6. object：一级数组和功能对象的集合
+6. object：一组数据和功能对象的集合
 7. array：基于Object实现的有序列表
 8. Date：时间对象
 9. RegExp：正则表达式对象
