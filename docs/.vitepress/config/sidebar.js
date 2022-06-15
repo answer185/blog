@@ -4,7 +4,12 @@ function getFrontendSidebar() {
       text: '前端',
       children: [
         { text: '前端基础', link: '/frontend/basic'},
-        { text: '前端架构', link: '/frontend/framework'},
+        { text: '前端架构',
+          children: [
+            { text: '架构概述', link: '/frontend/framework' },
+            { text: '前端工程', link: '/frontend/build'},
+            { text: 'Monorepo', link: '/frontend/monorepo'}
+        ]},
         { text: 'React生态', link: '/frontend/react'},
         { text: 'Vue生态', link: '/frontend/vue'},
         { 
@@ -12,7 +17,9 @@ function getFrontendSidebar() {
           children: [
             { text: 'PWA总结', link: '/frontend/pwa'},
             { text: '组件库总结', link: '/frontend/componnet-library' },
-            { text: '微前端总结', link: '/frontend/micro-frontend'}
+            { text: '微前端总结', link: '/frontend/micro-frontend'},
+            { text: 'Element-plus的构建原理', link: '/frontend/element-plus-build'},
+            { text: '组件库的加载', link: '/frontend/component-import'},
           ]
         },
       ]
