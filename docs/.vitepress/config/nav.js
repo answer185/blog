@@ -1,5 +1,10 @@
 const nav = [
   {
+    text: '项目',
+    link: '/project/vite-vue',
+    activeMatch: '^/$|^/project/'
+  },
+  {
     text: '编程基础',
     link: '/basic/data-structure',
     activeMatch: '^/$|^/basic/'

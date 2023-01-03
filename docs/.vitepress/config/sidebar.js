@@ -84,10 +84,23 @@ function getMeSidebar() {
   ]
 }
 
+function getProjectSidebar() {
+  return [
+    {
+      text: '项目',
+      collapsible: true,
+      items: [
+        {text: '基于Vite的Vue模板', link: '/project/vite-vue'}
+      ]
+    }
+  ]
+}
+
 export default {
   '/frontend/': getFrontendSidebar(),
   '/backend/': getBackendSidebar(),
   '/basic/': getBasicSidebar(),
   '/manager/': getManagerSidebar(),
   '/me/': getMeSidebar(),
+  '/project/': getProjectSidebar()
 }
