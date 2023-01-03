@@ -21,3 +21,4 @@ package-lock.json
 yarn.lock
 
 components.d.ts
+docs/.vitepress/dist/
